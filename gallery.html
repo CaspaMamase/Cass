@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+    <title>Gallery</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .gallery { display: flex; flex-wrap: wrap; gap: 10px; }
+        .gallery-item { width: calc(33.333% - 10px); }
+        .gallery-item img { width: 100%; height: auto; }
+    </style>
+</head>
+<body>
+    <h1>Gallery</h1>
+    <div class="gallery">
+        <div class="gallery-item">
+            <a href="image1.jpg" data-lightbox="gallery" data-title="Image 1"><img src="thumbnail1.jpg" alt="Thumbnail 1"></a>
+        </div>
+        <div class="gallery-item">
+            <a href="image2.jpg" data-lightbox="gallery" data-title="Image 2"><img src="thumbnail2.jpg" alt="Thumbnail 2"></a>
+        </div>
+        <div class="gallery-item">
+            <a href="image3.jpg" data-lightbox="gallery" data-title="Image 3"><img src="thumbnail3.jpg" alt="Thumbnail 3"></a>
+        </div>
+        <div class="gallery-item">
+            <a href="video1.mp4" data-lightbox="gallery" data-title="Video 1"><img src="thumbnail_video1.jpg" alt="Thumbnail Video 1"></a>
+        </div>
+        <div class="gallery-item">
+            <a href="video2.mp4" data-lightbox="gallery" data-title="Video 2"><img src="thumbnail_video2.jpg" alt="Thumbnail Video 2"></a>
+        </div>
+    </div>
+</body>
+</html>
